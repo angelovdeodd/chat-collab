@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.channel-select {
+  width: 250px;
+  margin: 20px auto 0 auto;
+}
+
+.channel-select-label {
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+
+.channel-select-select {
+  width: 250px;
+  margin: 2px 0 0 0;
+}
+
+
+.chat-container {
+  display: inline-flex;
+}
+
+.chat-area {
+  width: 620px;
+  height: 500px;
+}
+
+.chat-content {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto 0 auto;
+  border: 1px solid black;
+}
+
+.chat-lines {
+  margin: 0;
+  padding: 0;
+}
+
+.chat-line {
+  list-style-type: none;
+  width: 600px;
+  background-color: #F4FEFE;
+  font-family: Arial;
+  display: flex;
+  flex-direction: row;
+}
+
+.chat-line-time {
+  width: 80px;
+  font-weight: normal;
+}
+
+.chat-line-nick {
+  font-weight: bold;
+  margin-right: 8px;
+  width: 100px;
+  text-align: right;
+}
+
+.chat-line-line {
+  width: 430px;
+  text-align: left;
+}
+
+.chat-input {
+  width: 520px;
+  height: 24px;
+  font-size: 20px;
+}
+
+.chat-send-button {
+  height: 30px;
+  width: 80px;
+  font-size: 20px;
+}
+
+.chat-channel-list {
+  width: 200px;
+  height: 400px;
+  border: 1px solid black;
+  margin-top:20px;
+}
+
+.chat-channel-list ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.chat-channel-list ul li {
+  margin: 0;
+}
+
+.channel-label {
+  width: 100%;
+  padding: 2px 0 2px 0;
+}
+
+.channel-label span {
+  margin-left: 4px;
+}
+
+.channel-label.selected {
+  background-color: black;
+  color: white;
+}
+
+.create-channel-popup {
+  position: absolute;
+  top: 200px;
+  left: 1300px;
+  width: 300px;
+  height: 140px;
+  border: 1px solid green;
+  background-color: #EDEDED;
+  padding: 18px 0 0 0;
+}
+
+.create-channel-popup fieldset {
+  border: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
